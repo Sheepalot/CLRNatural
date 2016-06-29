@@ -6,6 +6,7 @@ using Microsoft.SqlServer.Server;
 
 public partial class StoredProcedures
 {
+    //The entry point for our code is the Stored Procedure defained here
     [Microsoft.SqlServer.Server.SqlProcedure]
     public static void NaturalSort(SqlString midLookupSproc, SqlString wrapperLookupSproc, SqlString sortSproc, SqlInt32 id)
     {
